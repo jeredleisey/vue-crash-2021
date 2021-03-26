@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Fork it out",
+      "day": "March 1st at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Disc Golf with Uli",
+      "day": "March 3rd at 1:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Mimosas with Tessa",
+      "day": "March 3rd at 11:00am",
+      "reminder": false
+    },
+    {
+      "id": 26291,
+      "text": "Eat a pizza",
+      "day": "April 1st",
+      "reminder": true
+    }
+  ]
+}
