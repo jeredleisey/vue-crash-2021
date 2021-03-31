@@ -14,12 +14,16 @@
       :tasks="tasks"
     />
   </div>
+  <div class="chart">
+    <Charts />
+  </div>
 </template>
 
 <script>
 import Header from "./components/Header";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
+import Charts from "./components/Charts";
 
 export default {
   name: "App",
@@ -27,6 +31,7 @@ export default {
     Header,
     Tasks,
     AddTask,
+    Charts,
   },
   data() {
     return {
@@ -99,6 +104,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+.chart {
   max-width: 500px;
   margin: 30px auto;
   overflow: auto;
