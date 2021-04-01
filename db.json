@@ -22,7 +22,7 @@
       "id": 26291,
       "text": "Eat a pizza",
       "day": "April 1st",
-      "reminder": true
+      "reminder": false
     }
   ]
 }
